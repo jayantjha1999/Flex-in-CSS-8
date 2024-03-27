@@ -1,0 +1,118 @@
+Q4)
+-----HTML CODE-----
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <title>Pricing Page</title>    
+        <link rel="stylesheet" href="style.css"> 
+    </head> 
+    <body>    
+        <!-- pricing section -->    
+        <section class="pricing-section">        
+        <!-- free plan card -->        
+        <div class="card">            
+            <h2 class="plan-name">Free Plan</h2>    
+            <p class="plan-for">For personal</p>
+            <h2 class="pricing">Rs.0</h2> 
+            <p class="features"><p>-1 Mobile Login</p> 
+            <p class="features"><p>-1 Desktop Login </p> 
+            <p class="features"><p>-720px</p> 
+            <p class="features"><p>-Hindi & English</p>            
+            <div class="subscribe-now-button-container">                
+              <button class="subscribe-now-button">Subscribe now</button>            
+            </div>        
+        </div>
+    <!-- basic plan card -->        
+    <div class="card dark">            
+        <h2 class="plan-name">Basic Plan</h2>            
+        <p class="plan-for">For small business</p>            
+        <h2 class="pricing">Rs.2999</h2>            
+        <p class="features"><p>-2 Mobile Login</p>            
+        <p class="features"><p>-2 Desktop Login</p>           
+        <p class="features"><p>-1080 px</p>  
+        <p class="features"><p>-All Language</p>
+    <div class="subscribe-now-button-container">                
+    <button class="subscribe-now-button  dark-btn">Subscribe now</button>            
+    </div>       
+</div>               
+<!-- pro plan card -->        
+<div class="card">            
+    <h2 class="plan-name">Pro Plan</h2>            
+    <p class="plan-for">For enterprise</p>           
+    <h2 class="pricing">Rs.4999</h2>            
+    <p class="features"><p>-Unlimited Users</p>
+    <p class="features"><p>-Unlimeted Users</p>
+    <p class="features"><p>-Full HD</p>
+    <p class="features"><p>Multiple Audio</p>
+    <div class="subscribe-now-button-container">                
+        <button class="subscribe-now-button">Subscribe now</button>            
+    </div>
+</div>    
+</section> 
+</body> 
+</html>
+
+-----CSS CODE-----
+
+body, p,h1,h2,h3{    
+    margin: 0;    
+    padding: 0;    
+    font-family: sans-serif;  
+}
+ /* pricing section */ 
+.pricing-section{   
+    min-height:100vh;    
+    padding-top: 100px;    
+    display: flex;    
+    justify-content: center;    
+    gap: 20px;    
+    background-color: #f5861e;    
+    box-sizing: border-box; 
+    }
+ /* card  */ 
+.card{   
+    width: 250px;    
+    height: fit-content;   
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    padding-top: 50px;
+    padding-left: 35px;
+}
+
+.plan-name{
+    font-size: 36px;
+    }
+.pricing{
+    font-size: 36px;
+    font-weight: 100;
+    margin: 12px 0;
+    }
+.features{
+    display: flex;
+    align-items: center;
+    }
+.subscribe-now-button-container{
+    display: flex;
+    justify-content: center;
+    margin-left: -35px;
+    }
+.subscribe-now-button{
+    background-color: #08090a;
+    color: white;
+    border-radius: 24px;
+    font-size: 18px;
+    padding: 10px 35px;
+    margin: 30px auto;
+    border-color: transparent;
+    }
+     /* dark card theme  */
+.dark{
+    background-color: #a62f53;
+    color: rgb(255, 255, 255);
+    }
+.dark-btn{
+    background-color: rgb(81, 127, 253);
+    color: black;
+    }

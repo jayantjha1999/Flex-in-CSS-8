@@ -1,0 +1,34 @@
+ Q2. Explain the role of the following key properties in the Flexbox layout mode
+ 1. justify-content
+ 2. align-item
+ 3. gap
+ 4. flex-direction
+ 5. flex-wrap
+Ans-
+1.justify-content:
+In Flexbox layout mode, the justify-content property plays a crucial role in aligning flex items along the main axis of the flex container. The main axis is defined based on the flex-direction property, which can be set to either row (horizontal) or column (vertical).
+Ex:flex-start,flex-end,center,space-between,space-around,space-evenly etc
+
+2.align-item
+In Flexbox layout mode, the align-items property is used to control how flex items are aligned along the cross axis of the flex container. The cross axis is perpendicular to the main axis, which is determined by the flex-direction property.
+Ex:flex-start,flex-end,center,baseline & stretch etc.
+
+3. gap
+In Flexbox layout mode, there is no specific gap property like in CSS Grid. However, you can achieve similar spacing between flex items by using the margin property on the individual flex items or by using the gap property in combination with Flexbox.
+
+4.flex-direction
+The flex-direction property in Flexbox layout mode determines the direction in which flex items are laid out within the flex container. It defines the main axis and cross axis of the flex container, which affect the direction in which flex items are placed and how they are aligned.
+The flex-direction property accepts four values:
+a)row
+b)row-reverse
+c)column
+d)colum-reverse.
+
+5)flex-wrap:
+The flex-wrap property in Flexbox layout mode determines whether flex items should wrap to the next line or remain on the same line within the flex container when there is not enough space to accommodate them along the main axis.
+
+The flex-wrap property accepts three values:
+a)nowrap
+b)wrap
+c)wrap-reverse
+

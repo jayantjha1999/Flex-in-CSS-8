@@ -1,0 +1,37 @@
+Q3-Write the code to center a div using CSS Flexbox.
+-----HTML CODE-----
+
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+    <div class="black"></div>
+ </body>
+ </html>
+
+
+-----CSS CODE------
+
+
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .black{
+    background-color: rgb(7, 14, 7);
+    width: 300px;
+    height: 300px;
+ }
+ 
